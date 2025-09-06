@@ -1,0 +1,9 @@
+function reverseString(str) {
+  // Split string into array of characters, reverse, join back
+  return str.split("").reverse().join("");
+}
+
+// Example usage
+const sample = "Hello GitHub!";
+console.log(`Original: ${sample}`);
+console.log(`Reversed: ${reverseString(sample)}`);
